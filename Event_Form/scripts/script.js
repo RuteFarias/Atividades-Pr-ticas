@@ -1,7 +1,11 @@
+//Questão 1:
+
 function clicou(){
     alert('O botão foi clicado');
 }
 
+
+//Questão 2:
 
 function maior(){
     let num1 = parseInt(document.getElementById('num1').value);
@@ -22,6 +26,9 @@ function maior(){
 
     
 }
+
+//Questão 3:
+
 function maiorIdade(){
     let idade = parseInt(document.getElementById('idade').value);
     let msg = '';
