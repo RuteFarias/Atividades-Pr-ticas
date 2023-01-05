@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event and Form</title>
+</head>
+
+<body>
+    <!--
+    01 -
+    Faça um programa em JavaScript em que o usuário clicará com o mouse
+    sobre um botão e em seguida uma mensagem de alerta será apresentada com
+    uma mensagem qualquer.
+
+    -->
+
+    <input type="button" value="Clicar" onclick="clicou()"><br>
+    <br>
+
+
+    <!--
+    02 -
+    Faça um formulário que receba 3 números informados pelo usuário.
+    Ao clicar em um botão, acione uma função e apresente uma mensagem de alerta informando qual é 
+    o maior número dentre os números informados.
+
+    -->
+    <input type="number" name="num1" id="num1" placeholder="Valor 1"><br>
+    <input type="number" name="num2" id="num2" placeholder="Valor 2"><br>
+    <input type="number" name="num3" id="num3" placeholder="Valor 3">
+
+    <p id="result"></p>
+    
+
+    <input type="button" value="Exibir maior" onclick="maior()"><br><br>
+
+
+    <!--
+    03 -
+    Faça um  formulário  onde o usuário informará a sua idade e o programa emitirá uma mensagem 
+    dizendo se o usuário e ou não menor de idade. (escolha a forma de exibição)
+    -->
+
+    <input type="number" name="idade" id="idade" placeholder="Idade"><br>
+    <input type="button" value="Enviar" onclick="maiorIdade()">
+
+
+
+
+
+    <script src="scripts/script.js"></script>
+
+</body>
+</html>
