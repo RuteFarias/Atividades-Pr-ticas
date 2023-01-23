@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+   
+}
+
+
+body{
+    font-family: 'Nunito', sans-serif;
+    background: #E4E3D3;
+
+}
+
+.background{
+    background:#E4E3D3;
+    width: 100%;
+}
+/*classes reutilizáveis - delimitar o conteúdo do site*/
+
+
+.container{
+    max-width: 2000px;
+    
+    margin: 0 auto;
+
+}
+
+
+section, footer{
+    padding: 2.7rem 0;
+
+}
+/*classes do site*/
+
+
+h1{
+    font-size: 40px;
+    padding-left: 20px;
+}
+
+
+.background .title{
+    width: 100%;
+    padding: 60px;
+    text-align: center; 
+    color: #be430a;
+    background: #ED7D3A;
+    color: var(--bone);
+    font-size: 1.8rem;
+    font-weight: 600;
+    
+    
+}
+
+
+
+
+
+
+:root{
+    --space-crayola: #2E3532;
+    --dark-cyan: #2D898B;
+    --bone: #DDD8C4;
+    --pansy-purple: #7E1946;
+    --lilac-luster: #B08EA2;
+}
+
+
+
+/* -- Responsive -- */
+@media(max-width: 720px){
+    .menu-icon{
+        display: block;
+    
+    }
+    .ul{
+        position: fixed;
+        background: var(--space-crayola);
+        top: 0;
+        width: 100%;
+        height: 100%;
+        left: 100%;
+        transition: 0.3s;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .ul li{
+        font-size: 20px;
+        margin: 20px 0;
+        
+    }
+    .ul.ativo{
+        left: 0;
+    }
+   
+    .main-banner{
+        width: 100%;
+    }
+    .main-text{
+        width: 100%;
+        text-align: center;
+    }
+    .main-text h1{
+        font-size: 10px;
+    }
+    
+    
+    footer .container{
+        flex-direction: column;
+
+    }
+    footer .container ul{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+   
+    
+}
+/* -- End Menu Icon -- */
+/* -- End Menu -- */
+
+/* -- Main -- */
+
+.main-banner{
+    background: url('../images/banner3.1.png') no-repeat center;
+    width: 100%;
+    height: 600px;
+}
+
+.main-text{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15em;
+    padding-bottom: 0;
+    text-align: center;
+
+}
+
+.main-text h1{
+    overflow: hidden;
+    margin: 0 auto;
+    display: inline-block;
+    font-weight: normal;
+    color: var(--bone);
+    font-size: 50px;
+    
+
+    
+}
+.main-text h1:after{  
+    display: inline-block;
+    background-color: var(--bone);
+    margin-left: 2px;
+    height: 25px;
+    width: 4px;
+   
+}
+
+/* -- End Main -- */
+
+
+.divisao{
+    background: #337357;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+/* -- Photos -- */
+.cards-photos .container{
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+    background: #E4E3D3;   
+    
+}
+
+
+.cards-photos .card img{
+    width: 100%;
+    padding-inline-start: 40px;
+    padding-inline-end: 40px;
+    
+    
+}
+.cards-photos .card .titulo{
+    margin: 13px 0;
+    font-weight: 600;
+    color:#E4E3D3;
+
+
+}
+/* -- End Diferenciais -- */
+
+
+/* -- Section About*/
+.about .container{
+    display: flex;
+    align-items: center;
+    background: #E4E3D3;
+    padding: 0 5%;
+
+}
+.about .jornalismo-img{
+    width: 50%;
+
+}
+
+.about .jornalismo-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+.about .jornalismo-text{
+    width: 50%;
+    padding-left: 90px;
+}
+
+.about .jornalismo-text h2{
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+.about .jornalismo-text p{
+    margin: 20px 0;
+    font-size: 15px;
+}
+
+/* -- End Section About -- */
+.photos .container-photos{
+    display: flex;
+}
+
+.photos .container-photos{
+    background: #E4E3D3;
+    padding: 0 5%;
+
+}
+.photos .card-photo1{
+    width: 50%;
+    left: 0;
+
+}
+
+.photos .card-photo2 {
+    width: 50%;
+    right: 0;
+
+}
+
+
+
+
+/* -- Footer -- */
+footer{
+    background:#B08EA2;
+}
+
+footer .container{
+    display: flex;
+    color: var(--bone);
+    align-items: left;
+    padding: 0 5%;
+}
+footer .container ul{
+    width: 20%;
+    list-style: none;
+}
+
+footer .container h3{
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+footer .container li{
+    margin: 10px 0;
+    list-style: none;
+
+}
+
+
+
+/* -- End Footer -- */

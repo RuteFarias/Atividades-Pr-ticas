@@ -1,0 +1,33 @@
+*{
+    margin: 0 auto;
+}
+
+body{
+    background-color:beige;
+    
+}
+div{
+    background-color: rgb(165, 146, 122);
+    width: 90%;
+    height: 10%;
+    float: center;
+    padding: 1%;
+    margin-bottom: 2%;
+    text-align: center;
+
+}
+
+h1{
+    text-align: center;
+    padding: 5%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h3{
+    padding: 10px;
+}
+
+li{
+    text-align: center;
+
+        
+}
